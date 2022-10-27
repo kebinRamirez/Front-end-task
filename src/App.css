@@ -7,6 +7,160 @@
   pointer-events: none;
 }
 
+.contenedor{
+  display: flex;
+  width: 90%;
+  margin-top: 100px;
+  margin: auto;
+  padding: 40px 0;
+  gap: 20px;
+}
+
+.contenedor-items{
+  width: 70%;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+}
+
+.banner{
+  border-radius: 10px;
+  text-align: justify;
+  padding: 20px;
+  width: 30%;
+  margin-top: 100px;
+}
+.card{
+  width: 30%;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: rgb(231, 224, 224);
+  min-height: 150px;
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header{
+ display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  position:fixed;
+  background-color: white;
+  right:20px; 
+  z-index: 10;
+}
+
+.sub-header{
+  width: 95%;
+  border-bottom: purple;
+  border-bottom-style: solid;
+  border-bottom-width:1px ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-logo{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(192, 21, 192);
+  border-radius: 10px;
+  width: 80px;
+  height: 70px;
+}
+
+.logo-name{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  color:  rgb(192, 21, 192);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.cart-bag{
+  width: 50%;
+}
+
+.cart-container{
+  display: flex;
+  width: 40%;
+  padding: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.cart-img{
+  width: 100%;
+}
+
+.price-styleer{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  color:  white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.button{
+  background-color: white;
+  color: white;
+  cursor: pointer;
+}
+
+.color-container{
+  display: flex;
+  /* width: 30%; */
+  height: 40px;
+  padding:5px;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: rgb(192, 21, 192);
+}
+
+.button:hover,
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.text-product{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: gray;
+  font-size: 15;
+}
+
+.image{
+  width: 55%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

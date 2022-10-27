@@ -1,0 +1,209 @@
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: purple;
+    font-size: 15px;
+    display: flex;
+    border-bottom: solid;
+    border-width: 1px;
+    height: 25px;
+    border-color: purple;
+}
+
+.imagee{
+    width: 100%;
+}
+
+.row-image{
+    display: flex;
+}
+
+.quantity-item{
+    display: flex;
+    width: 15%;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.image-item{
+    display: flex;
+    width: 85%;
+}
+.circle{
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 25px;
+}
+
+.line{
+    display: flex;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: gray;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.flexx{
+    display: flex;
+}
+
+.try{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+.flexxs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-style{
+    background-color: rgb(16, 197, 137);
+    font-size: 15px;
+    color:white;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: green;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.product-title{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    height: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.point{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+
+.price-style{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: purple;
+}
+
+.minus{
+    background-color: rgb(199, 192, 192);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    border-style: hidden;
+    width: 30px;
+}
+
+.plus{
+    background-color: rgb(179, 14, 179);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border-style: hidden;
+    width: 30px;
+}
+
+.description{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(158, 153, 153);
+}
+
+.empty-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.text-empty{
+    font-size: 15px;
+}
+
+.card-cart{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(179, 14, 179);
+    border-bottom-width: 1px;
+    margin-top: 5px;
+    flex-direction: row;
+}
+
+.cart-image{
+    width: 80%;
+    max-width: 80px;
+}
+
+.button-styler{
+    background-color: rgb(202, 63, 63);
+    font-size: 15px;
+    color:white;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(128, 0, 0);
+    height: 30px;
+    border-radius: 5px;
+}
+.button-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.img-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.q-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.total-style{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(170, 163, 155);
+}
+
+.total-price-style{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(179, 14, 179);
+    margin-right: 5px;
+}
