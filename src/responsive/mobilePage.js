@@ -1,5 +1,6 @@
 import { connect } from 'react-redux'
-import { addToCart, setCurrentItem, calculateCartr, removeFromCart } from '../redux/shopping/shopping-actions'
+import { addToCart, setCurrentItem, calculateCartr, removeFromCart } from '../redux/shopping/shopping-actions';
+import { Helmet } from 'react-helmet';
 
 function MobilePage(props) {
 
@@ -114,17 +115,21 @@ function MobilePage(props) {
                                 </div>
                                 <div className='try'>
                                     <form>
-                                        <script
-                                            src="https://checkout.wompi.co/widget.js"
-                                            data-render="button"
-                                            data-public-key="pub_test_X0zDA9xoKdePzhd8a0x9HAez7HgGO2fH"
-                                            data-currency="USD"
-                                            data-amount-in-cents={props.calculateCart}
-                                            data-reference="4XMPGKWWPKWQ"
-                                        >
-                                        </script>
+                                        <Helmet>
+                                            <script
+                                                src="https://checkout.wompi.co/widget.js"
+                                                data-render="button"
+                                                data-public-key="pub_test_X0zDA9xoKdePzhd8a0x9HAez7HgGO2fH"
+                                                data-currency="USD"
+                                                data-amount-in-cents={props.calculateCart}
+                                                data-reference="4XMPGKWWPKWQ"
+                                            >
+                                            </script>
+                                        </Helmet>
                                     </form>
                                 </div>
+                                
+
                             </div>
                         )}
                     </div>
@@ -159,7 +164,7 @@ const mapDispatchToProps = (dispatch) => {
         addToCart: (id, qt) => dispatch(addToCart(id, qt)),
         setCurrentItem: (item) => dispatch(setCurrentItem(item)),
         calculateCartr: () => dispatch(calculateCartr()),
-        removeFromCart: (id) => dispatch(removeFromCart(id)),
+        removeFromCart: (id)=> dispatch(removeFromCart(id)),
     }
 }
 
